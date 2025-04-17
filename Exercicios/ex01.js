@@ -5,7 +5,7 @@ var prompt = require('prompt-sync')();
 
 var CPF;
 
-CPF = prompt("Digite seu CPF, 14 dígitos: ")
+CPF = prompt("Digite seu CPF, 11 dígitos: ")
 
 console.log(`CPF: ${formataCPF(CPF)}`);
 
